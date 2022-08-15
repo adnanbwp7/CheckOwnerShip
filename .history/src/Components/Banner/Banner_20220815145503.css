@@ -1,0 +1,69 @@
+ 
+.mint-container {
+    display: flex;
+    width: 100%;
+    max-width: 350px;
+    height: 100%;
+    padding: 100px 0;
+    flex-direction: column;
+}
+
+.btn-mint {
+    display: flex;
+    color: #fff;
+    font-size: 1.5em;
+    border: 2px solid rgba(255, 255, 255, .6);
+    width: 100%;
+    max-width: 350px;
+    padding: 15px 20px;
+    border-Radius: 8px;
+    justify-Content: center;
+    align-Items: center;
+    font-weight: 700;
+    background-color: rgb(191, 85, 236) !important;
+    text-transform: capitalize;
+    margin: 20px auto;
+    cursor: pointer;
+
+}
+
+.btn-connect {
+    top: 20px;
+    right: 0px;
+    margin-right: -10px;
+    position: absolute;
+    width: auto;
+    z-index: 99;
+    border-radius: 8px
+}
+
+@media screen and (max-width: 768px) {
+    .card-container {
+        width: 90%;
+        padding: 50px 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .card-container {
+        flex-direction: column;
+        padding: 100px 0;
+    }
+
+    .mint-container {
+        width: 100%;
+        max-width: 400px;
+        justify-content: center;
+        margin: auto;
+        padding: 0;
+    }
+
+    .btn-mint,
+    .card {
+        max-width: 350px;
+    }
+
+    .btn-connect {
+        right: 10px;
+    }
+}

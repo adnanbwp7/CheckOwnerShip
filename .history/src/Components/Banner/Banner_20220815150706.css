@@ -1,0 +1,40 @@
+.mint-container {
+    display: flex;
+    justify-content: center;
+    width: 95%;  
+    margin: 100px auto;  
+}
+
+.btn-mint {
+    display: flex;
+    color: #fff;
+    font-size: 1.5em;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    width: 100%;
+    max-width: 400px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 20px auto;
+    cursor: pointer;
+}
+.btn-mint:hover{
+    background-color: rgb(191, 85, 236) !important;
+}
+.btn-connect { 
+    right: 0px;
+    margin-right: -10px;
+    position: absolute;
+    width: auto;
+    z-index: 99;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 650px) {
+    .btn-connect {
+        right: 10px;
+    }
+}
